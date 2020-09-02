@@ -2,7 +2,7 @@
 #include "ESPnetwork.h"
 void setup() {
   Serial.begin(115200);
-  network.connect("ZyXEL_6997","YKEHXC74K4");
+  network.connect("ssid","wifipass");
   Serial.println(WiFi.BSSIDstr());
 }
 void loop() {
